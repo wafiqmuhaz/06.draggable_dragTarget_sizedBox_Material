@@ -72,8 +72,8 @@ class _alloneState extends State<allone> {
                 builder: (context, candidate, rejected) {
                   return (acc)
                       ? SizedBox(
-                          height: 50,
-                          width: 50,
+                          height: 100,
+                          width: 100,
                           child: Material(
                             color: target,
                             shape: StadiumBorder(),
